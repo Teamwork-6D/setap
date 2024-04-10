@@ -155,11 +155,6 @@ function viewProfilePopup() {
 
   profileSection.appendChild(profilePopup);
 
-
-
-
-
-
   //to close popup
   const closeIcon = document.querySelector('.close-icon');
   closeIcon.addEventListener('click', () => {
@@ -188,3 +183,8 @@ function eventListeners() {
 }
 
 eventListeners();
+
+
+
+
+

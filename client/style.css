@@ -324,3 +324,38 @@ body {
 .profile-section .profile-card .close-icon:hover {
   opacity: 0.5;
 }
+
+.task-bar {
+  display: flex;
+  flex-direction: row;
+  margin: 6em 2em 2em 6.5%;
+}
+
+.task-bar .area {
+  margin: 0.625em;
+  width: 7em;
+  height: 1.5em;
+  background-color: #999191;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0.2em;
+  display: flex;
+}
+
+.task-bar .area svg {
+  margin-left: 0.4em;
+}
+
+
+.task-bar .area p {
+  margin: 0 0 0 0.3em;
+  
+}
+
+.task-bar .input {
+  margin: 0.625em;
+  padding: 0.625em;
+  width: 17em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+}
